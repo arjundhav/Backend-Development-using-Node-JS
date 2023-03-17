@@ -2,8 +2,10 @@
 
   Creating WebServer
 
-  Express JS 
+  Express JS: **back end web application framework for building RESTful APIs with Node.js**
 
-  Middlewares
+  Middlewares: **a set of functions that execute during the processing of HTTP requests received by an Express app**.
 
-  BodyParser
+  BodyParser: **npm module used to process data sent in an HTTP request body**.
+
+  Template Engine
