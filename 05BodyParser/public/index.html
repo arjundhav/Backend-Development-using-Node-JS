@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--BootStrap Links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <h1 style="text-align: center; background-color: beige;">Sign Up</h1>
+  <form action="/login" method="POST" class="form-signin">
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <label class="form-label" for="form3Example1">First name</label>
+          <input type="text" id="form3Example1" class="form-control" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <label class="form-label" for="form3Example2">Last name</label>
+          <input type="text" id="form3Example2" class="form-control" />
+        </div>
+      </div>
+    </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example3">Email address</label>
+      <input type="email" id="form3Example3" class="form-control" />
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example4">Password</label>
+      <input type="password" id="form3Example4" class="form-control" />
+    </div>
+  
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+  </form>
+</div>
+</body>
+</html>
