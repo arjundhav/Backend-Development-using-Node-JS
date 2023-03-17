@@ -1,0 +1,32 @@
+<!--Bootstrap Boiler-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Multer File Upload</h1>
+
+     <div class="card-body">
+        <img class="card-img-top" src=" <%= typeof filename == 'undefined'? '' : filename %>" alt="Demo">
+        <h5 class="card-title"> Multer File Upload</h5>
+        <p class="card-text">Upload a file to the server</p>
+
+        <form class="" action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Choose File</label>
+                <input type="file" class="form-control" name="profilepic" id="file">
+            </div>
+            <p style="color:red;"> <%= typeof message == 'undefined'? '' : message %></p>
+        <br/>
+            <button type="submit" class="btn btn-primary gap"> Upload </button>
+        </form>
+    </div> 
+    </div>
+</body>
+</html>

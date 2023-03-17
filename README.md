@@ -8,4 +8,6 @@
 
   BodyParser: **npm module used to process data sent in an HTTP request body**.
 
-  Template Engine
+  Template Engine: EJS, pug , Jade
+
+   Multer: **node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files.**
