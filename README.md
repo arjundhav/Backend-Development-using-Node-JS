@@ -12,4 +12,4 @@
 
    Multer: **node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files.**
    
-   <img src="![image](https://user-images.githubusercontent.com/63765264/230379903-d74841b3-1a42-4e87-acf3-3d2cfdc136b5.png)" />
+   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cB6d_K8v--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_775/https://dev-to-uploads.s3.amazonaws.com/i/hlhrtuspjyrstifubdhs.gif" />
