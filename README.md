@@ -12,4 +12,6 @@
 
    Multer: **node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files.**
    
+   
+   <h3> Visualize Promises & Async/Await  </h3>
    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cB6d_K8v--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_775/https://dev-to-uploads.s3.amazonaws.com/i/hlhrtuspjyrstifubdhs.gif" />
